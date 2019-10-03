@@ -5,9 +5,51 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: whitesmoke;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.cardContainer {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  margin: 1em;
+  border: solid 1px grey;
+  width: 300px;
+  border-radius: 5px;
+  /*padding: 0.5em;*/
+}
+
+.card-body {
+  padding: 0.5em;
+}
+
+.title {
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  padding: 0.5em;
+  padding-bottom: 0;
+  background: #ff323c;
+  color: whitesmoke;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  border-bottom: solid lightgray 1px;
+}
+
+.tag {
+  margin-left: 0.5em;
+  border: solid 2px #f7232e;
+  color: #f7232e;
+  font-weight: bold;
+  background: whitesmoke;
+  border-radius: 6px;
+  padding: 0 0.25em 0 0.25em;
 }

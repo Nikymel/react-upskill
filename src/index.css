@@ -5,7 +5,6 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: whitesmoke;
 }
 
 code {
@@ -13,18 +12,52 @@ code {
     monospace;
 }
 
+.button {
+  background: #ff323c;
+  border-radius: 5px;
+  color: whitesmoke;
+  border: solid 1px whitesmoke;
+}
+
+.navbar {
+  background: #ff323c;
+  width: 100%;
+  padding: 1em;
+  padding-left: 2em;
+  padding-right: 2em;
+  color: whitesmoke;
+  display: inline-flex;
+  height: 60px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar-items {
+  list-style: none;
+  display: inline-flex;
+}
+
+.navbar-item {
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+}
+
 .cardContainer {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  background:rgb(248, 248, 248);
+  height: 100%;
 }
 
 .card {
   margin: 1em;
-  border: solid 1px grey;
   width: 300px;
   border-radius: 5px;
   /*padding: 0.5em;*/
+  background: whitesmoke;
+  -webkit-box-shadow: 0px 10px 13px -7px #000000, 0px 5px 14px -1px rgba(0,0,0,0); 
+  box-shadow: 0px 10px 13px -7px #000000, 0px 5px 14px -1px rgba(0,0,0,0);
 }
 
 .card-body {
